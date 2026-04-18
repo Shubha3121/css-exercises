@@ -7,21 +7,44 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  box-sizing: border-box;
+  padding: 16px;
+  padding-right: 14px;
+  padding-left: 14px;
+  padding-bottom: 14px;
 }
 
 .title {
+  margin-top: 0px;
+  margin-bottom: 16px;
   background: #e3f4ff;
+  padding: 8px;
+  box-sizing: border-box;
 }
 
 .content {
+  padding : 8px;
   background: #e3f4ff;
+  font-size: 14.9px;
+  box-sizing: border-box;
+  padding-top:12px;
+  padding-bottom:12px;
+  margin-bottom:16px;
 }
 
 .button-container {
+  padding: 8px;
+  margin-top: 16px;
+  display: block;
   background: #e3f4ff;
+  text-align: center;
+  box-sizing: border-box;
 }
 
 button {
+  margin-left: 122px;
+  padding: 8px 16px 8px 16px;
+  display: block;
   background: white;
   border: 1px solid #eee;
 }
